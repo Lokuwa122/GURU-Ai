@@ -15,10 +15,10 @@ global.owner = [];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
-        ownerlist[i + 1],         
+        ownerlist[779186252],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(779186252);
 }
 
 //global.pairingNumber = "" //put your bot number here
