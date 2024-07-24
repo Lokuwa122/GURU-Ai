@@ -11,15 +11,14 @@ const ownervb = process.env.OWNERS || "917605902011;GURU;6281255369012;Ash"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [94779186252];
 for (let i = 0; i < ownerlist.length; i += 2) {
-    const owner = [
-        ownerlist[i],            
-        ownerlist[i + 1],         
+    const owner = [94779186252]
+        ownerlist[94779186252],            
+        ownerlist[94779186252 ],         
         true                        
     ];
-    global.owner.push(owner);
-}
+    global.owner.push(owner)
 
 //global.pairingNumber = "" //put your bot number here
 
@@ -69,10 +68,10 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
-global.premium = 'true'
-global.packname = 'GURU┃ᴮᴼᵀ'
-global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
+global.botname = process.env.LOKUWA
+global.premium ='LOKUWA'
+global.packname = 'loku┃ᴮᴼᵀ'
+global.author = 'loku ˢᵉⁿˢᵉⁱ'
 global.menuvid = 'https://i.imgur.com/AjDzGgG.mp4'
 global.igfg = '▢ Follow on Instagram\nhttps://www.instagram.com/guru.json\n'
 global.dygp = 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp'
